@@ -8,16 +8,11 @@
     } else if (path.ends_with(".mp3")) {
         return 0xD;
     }
-    return 0;
+        return 0;
     }
 
 bool audioClipLoader::loader::load()
 {
-
-
-
-    //TODO figure out how to get logging working here!
-    //Stage 0 
     bool fileError = fileexists(filePath.c_str());
     bool error = (audioClipAsync != nullptr || audioSource != nullptr || !fileError);
     if(error)

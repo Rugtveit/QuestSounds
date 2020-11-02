@@ -20,22 +20,6 @@ const Logger& getLogger() {
 }
 std::string soundPath = string_format(SOUND_PATH_FORMAT, Modloader::getApplicationId().c_str());
 
-
-
-
-
-audioClipLoader::loader hitSoundLoader; // hitSound
-audioClipLoader::loader badHitSoundLoader; // badHitSound
-audioClipLoader::loader menuMusicLoader;    // menuMusic
-audioClipLoader::loader menuClickLoader;
-audioClipLoader::loader fireworkSoundLoader;
-audioClipLoader::loader levelClearedLoader;
-Il2CppArray* hitSoundArr; // hitSoundArray
-Il2CppArray* badHitSoundArr; // badHitSoundArray
-Il2CppArray* menuClickArr;
-Il2CppArray* fireworkSoundArr; 
-
-
 Il2CppArray* createAudioClipArray(audioClipLoader::loader clipLoader)
 {
     Il2CppObject* tempClip = clipLoader.getClip();
