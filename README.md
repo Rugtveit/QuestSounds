@@ -1,8 +1,8 @@
 # QuestSounds
 
-
-QuestSounds allows the user to change sounds without asset mods,  
-just drop them into default path or your custom path!
+Beat Saber mod for Oculus Quest 1 and 2. 
+Quest sounds allows the users to change the sound effects to their own sounds,
+drop them into default path or your custom path!
 
 ## Features:
 Support for OGG, MP3 and WAV file formats!  
